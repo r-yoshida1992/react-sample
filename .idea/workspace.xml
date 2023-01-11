@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb8e5808-2e09-4ce5-a0f6-598b0bbe1b72" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/BackButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FirstPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FirstPage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/BackButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BackButton.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673439779696</updated>
       <workItem from="1673439781574" duration="157000" />
-      <workItem from="1673439942399" duration="4521000" />
+      <workItem from="1673439942399" duration="5787000" />
     </task>
     <servers />
   </component>
