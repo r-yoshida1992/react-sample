@@ -5,21 +5,29 @@ import './App.css';
 import FirstPage from "./pages/FirstPage";
 import {Home} from "./pages/Home";
 import {BackButton} from "./component/BackButton";
+import {createTheme, CssBaseline, ThemeProvider, useMediaQuery} from "@mui/material";
+import {route} from "./constants/route";
 
 export const App = () => {
+    const isDarkMode = useMediaQuery('(prefers-color-scheme: dark)') // ダークモードを判定する
+    const theme = createTheme({
+        palette: {
+            mode: isDarkMode ? 'dark' : 'light'
+        }
+    })
     return (
-        <Container
-            maxWidth={false} // 最大幅の制限なし
-            disableGutters // 左右の余白を除去
-            sx={{
-                backgroundColor: "#eee",
-            }}
-        >
-            <Routes> {/* ルート情報の設定 */}
-                <Route path="/" element={<Home/>}/>
-                <Route path="/firstpage" element={<FirstPage/>}/>
-            </Routes>
-            <BackButton/>
-        </Container>
+        <ThemeProvider theme={theme}>
+            <CssBaseline/> {/* muiのリセットcss */}
+            <Container
+                maxWidth={false} // 最大幅の制限なし
+                disableGutters // 左右の余白を除去
+            >
+                <Routes> {/* ルート情報の設定 */}
+                    <Route path={route.index} element={<Home/>}/>
+                    <Route path={route.firstPage} element={<FirstPage/>}/>
+                </Routes>
+                <BackButton/>
+            </Container>
+        </ThemeProvider>
     );
 };

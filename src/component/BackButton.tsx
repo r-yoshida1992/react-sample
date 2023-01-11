@@ -23,10 +23,11 @@ export const BackButton = () => {
             id="back-button"
             variant="outlined"
             disableElevation
+            color="warning"
             sx={{
                 position: "fixed",
-                bottom: 10,
-                left: 10,
+                bottom: 20,
+                left: 20,
                 borderRadius: 13,
                 width: 100,
                 height: 100,
