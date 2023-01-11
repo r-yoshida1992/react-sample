@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Route, Routes} from 'react-router-dom';
+import {Container} from '@mui/system';
 import './App.css';
+import FirstPage from "./pages/FirstPage";
+import {Home} from "./pages/Home";
+import {BackButton} from "./component/BackButton";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+export const App = () => {
+    return (
+        <Container
+            maxWidth={false} // 最大幅の制限なし
+            disableGutters // 左右の余白を除去
+            sx={{
+                backgroundColor: "#eee",
+            }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+            <Routes> {/* ルート情報の設定 */}
+                <Route path="/" element={<Home/>}/>
+                <Route path="/firstpage" element={<FirstPage/>}/>
+            </Routes>
+            <BackButton/>
+        </Container>
+    );
+};
