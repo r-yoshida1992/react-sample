@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb8e5808-2e09-4ce5-a0f6-598b0bbe1b72" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/constants/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/CardSample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/BackButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BackButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FirstPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FirstPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FirstPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FirstPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673439779696</updated>
       <workItem from="1673439781574" duration="157000" />
-      <workItem from="1673439942399" duration="7598000" />
+      <workItem from="1673439942399" duration="11089000" />
+      <workItem from="1673528301183" duration="2168000" />
     </task>
     <servers />
   </component>
