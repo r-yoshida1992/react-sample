@@ -8,6 +8,9 @@ import {route} from "./constants/route";
 import {CardSample} from "./pages/CardSample";
 import {ChangeThemeButton} from "./component/ChangeThemeButton";
 import {ColorModeContext} from "./context/ColorModeContext";
+import {PostSample} from "./pages/PostSample";
+import {FormSample} from "./pages/FormSample";
+import {AceEditorSample} from "./pages/AceEditorSample";
 
 export const App = () => {
     const isDarkMode = useMediaQuery('(prefers-color-scheme: dark)') // ダークモードを判定する
@@ -29,7 +32,10 @@ export const App = () => {
                 <Routes> {/* ルート情報の設定 */}
                     <Route path={route.index.url} element={<Home/>}/>
                     <Route path={route.firstPage.url} element={<FirstPage/>}/>
-                    <Route path={route.cardSample.url} element={<CardSample/>}/>
+                    <Route path={route.index} element={<Home/>}/>
+                    <Route path={route.firstPage} element={<FirstPage/>}/>
+                    <Route path={route.postSample} element={<PostSample/>}/>
+                    <Route path={route.aceEditor} element={<AceEditorSample/>}/>
                 </Routes>
                 <BackButton/>
                 <ChangeThemeButton/>
