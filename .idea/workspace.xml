@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb8e5808-2e09-4ce5-a0f6-598b0bbe1b72" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/CardSample.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FirstPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FirstPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FirstPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FirstPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/FormSample.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormSample.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../abaCares/cares" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,6 +52,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\projects\X\react-sample\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\X\react-sample\src\component" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\X\react-sample\src\context" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -82,7 +86,7 @@
       <updated>1673439779696</updated>
       <workItem from="1673439781574" duration="157000" />
       <workItem from="1673439942399" duration="11089000" />
-      <workItem from="1673528301183" duration="2168000" />
+      <workItem from="1673528301183" duration="4755000" />
     </task>
     <servers />
   </component>

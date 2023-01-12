@@ -20,10 +20,16 @@ export const route: route = {
         url: "/card-sample",
         label: "Cardのサンプル",
     },
-export const route = {
-    index: "/",
-    firstPage: "/firstpage",
-    postSample: "/postSample",
-    formSample: "/formSample",
-    aceEditor: "aceEditor",
+    postSample: {
+        url: "/post-sample",
+        label: "postのサンプル",
+    },
+    formSample: {
+        url: "/form-sample",
+        label: "formのサンプル",
+    },
+    aceEditor: {
+        url: "/ace-editor",
+        label: "AceEditor",
+    },
 }

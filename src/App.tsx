@@ -32,10 +32,10 @@ export const App = () => {
                 <Routes> {/* ルート情報の設定 */}
                     <Route path={route.index.url} element={<Home/>}/>
                     <Route path={route.firstPage.url} element={<FirstPage/>}/>
-                    <Route path={route.index} element={<Home/>}/>
-                    <Route path={route.firstPage} element={<FirstPage/>}/>
-                    <Route path={route.postSample} element={<PostSample/>}/>
-                    <Route path={route.aceEditor} element={<AceEditorSample/>}/>
+                    <Route path={route.cardSample.url} element={<CardSample/>}/>
+                    <Route path={route.postSample.url} element={<PostSample/>}/>
+                    <Route path={route.formSample.url} element={<FormSample/>}/>
+                    <Route path={route.aceEditor.url} element={<AceEditorSample/>}/>
                 </Routes>
                 <BackButton/>
                 <ChangeThemeButton/>
