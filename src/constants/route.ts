@@ -32,4 +32,8 @@ export const route: route = {
         url: "/ace-editor",
         label: "AceEditor",
     },
+    webSite1: {
+        url: "/web-site1",
+        label: "webサイトサンプル1",
+    },
 }

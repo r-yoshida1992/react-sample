@@ -8,13 +8,13 @@ export const FormSample = () => {
             justifyContent: "center", // 左右中央
             alignItems: "center", // 上下中央
         }}>
-            <Grid sx={
-                ({palette}) => ({
+            <Grid sx={{
                     p: 2,
                     width: 400,
                     borderStyle: "solid",
+                    borderWidth: 1,
                     borderRadius: 2,
-                })}>
+                }}>
                 <Typography fontWeight="bolder">入力フォーム</Typography>
                 <TextField sx={{m: 1}} label="TextField" variant="outlined"/>
                 <TextField sx={{m: 1}} label="TextField" variant="filled"/>
@@ -32,8 +32,9 @@ export const FormSample = () => {
                         label="Birthday"
                         type="date"
                         defaultValue="2017-05-24"
-                        color="warning"
-                        sx={{width: 220}}
+                        sx={{
+                            width: 220,
+                        }}
                         InputLabelProps={{
                             shrink: true,
                         }}

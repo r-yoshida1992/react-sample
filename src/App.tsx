@@ -11,6 +11,7 @@ import {ColorModeContext} from "./context/ColorModeContext";
 import {PostSample} from "./pages/PostSample";
 import {FormSample} from "./pages/FormSample";
 import {AceEditorSample} from "./pages/AceEditorSample";
+import {WebSite1} from "./pages/WebSite1/WebSite1";
 
 export const App = () => {
     const isDarkMode = useMediaQuery('(prefers-color-scheme: dark)') // ダークモードを判定する
@@ -36,6 +37,7 @@ export const App = () => {
                     <Route path={route.postSample.url} element={<PostSample/>}/>
                     <Route path={route.formSample.url} element={<FormSample/>}/>
                     <Route path={route.aceEditor.url} element={<AceEditorSample/>}/>
+                    <Route path={route.webSite1.url} element={<WebSite1/>}/>
                 </Routes>
                 <BackButton/>
                 <ChangeThemeButton/>
