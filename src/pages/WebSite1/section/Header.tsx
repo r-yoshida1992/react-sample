@@ -1,4 +1,44 @@
 import {Box, Container, Typography} from "@mui/material";
+import logo from './../../../logo.svg';
+
+const MenuItem = (name: string): JSX.Element => (
+    <Box
+        sx={{
+            backgroundColor: "pink",
+            lineHeight: "100px",
+            width: 150,
+            height: 40,
+            textAlign: "center",
+            fontWeight: "bold",
+        }}>
+        <Typography sx={({palette}) => { return {
+            backgroundColor: "yellow",
+            pt:1,
+            pb: 1,
+            position: "relative",
+            height: 40,
+            fontWeight:"bold",
+            '::after': {
+                backgroundColor: palette.primary.main,
+                bottom: 0,
+                content: '""',
+                display: "block",
+                height: "2px",
+                left: 0,
+                position: "absolute",
+                transition: ".8s all",
+                width: 0,
+            },
+            ":hover::after": {
+                width: "100%",
+            }
+        }
+        }}>
+            {name}
+        </Typography>
+    </Box>
+)
+
 
 export const Header = () => {
     return (
@@ -8,14 +48,16 @@ export const Header = () => {
                 height: "100px",
                 display: "flex"
             }}>
-                <Box
-                    sx={{
-                        backgroundColor: "blue",
-                        height: "100px",
-                        width: "200px"
-                    }}
-                >
-                    Logo
+                <Box>
+                    <img
+                        alt="logo"
+                        src={logo}
+                        style={{
+                            height: "100px",
+                            width: "200px",
+                            objectFit: "cover"
+                        }}
+                    ></img>
                 </Box>
                 <Box
                     sx={{
@@ -26,54 +68,10 @@ export const Header = () => {
                         alignItems: "center",
                     }}
                 >
-                    <Typography
-                        sx={{
-                            backgroundColor: "pink",
-                            lineHeight: "100px",
-                            mx: 1,
-                            width: 150,
-                            textAlign: "center",
-                            fontWeight: "bold",
-                        }}
-                    >
-                        ホームページ
-                    </Typography>
-                    <Typography
-                        sx={{
-                            backgroundColor: "pink",
-                            lineHeight: "100px",
-                            mx: 1,
-                            width: 150,
-                            textAlign: "center",
-                            fontWeight: "bold",
-                        }}
-                    >
-                        会社概要
-                    </Typography>
-                    <Typography
-                        sx={{
-                            backgroundColor: "pink",
-                            lineHeight: "100px",
-                            mx: 1,
-                            width: 150,
-                            textAlign: "center",
-                            fontWeight: "bold",
-                        }}
-                    >
-                        ブログ
-                    </Typography>
-                    <Typography
-                        sx={{
-                            backgroundColor: "pink",
-                            lineHeight: "100px",
-                            mx: 1,
-                            width: 150,
-                            textAlign: "center",
-                            fontWeight: "bold",
-                        }}
-                    >
-                        お問い合わせ
-                    </Typography>
+                    {MenuItem("ホームページ")}
+                    {MenuItem("会社概要")}
+                    {MenuItem("ブログ")}
+                    {MenuItem("お問い合わせ")}
                 </Box>
             </Container>
             <Container maxWidth={false} sx={{

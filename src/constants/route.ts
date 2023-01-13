@@ -36,4 +36,8 @@ export const route: route = {
         url: "/web-site1",
         label: "webサイトサンプル1",
     },
+    reactSpringSample: {
+        url: "/react-spring-sample",
+        label: "react-spring sample",
+    },
 }

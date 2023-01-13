@@ -9,12 +9,12 @@ export const FormSample = () => {
             alignItems: "center", // 上下中央
         }}>
             <Grid sx={{
-                    p: 2,
-                    width: 400,
-                    borderStyle: "solid",
-                    borderWidth: 1,
-                    borderRadius: 2,
-                }}>
+                p: 2,
+                width: 400,
+                borderStyle: "solid",
+                borderWidth: 1,
+                borderRadius: 2,
+            }}>
                 <Typography fontWeight="bolder">入力フォーム</Typography>
                 <TextField sx={{m: 1}} label="TextField" variant="outlined"/>
                 <TextField sx={{m: 1}} label="TextField" variant="filled"/>
