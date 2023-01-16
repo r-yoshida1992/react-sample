@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb8e5808-2e09-4ce5-a0f6-598b0bbe1b72" name="変更" comment="">
+    <list default="true" id="bb8e5808-2e09-4ce5-a0f6-598b0bbe1b72" name="変更" comment="add samples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/FormSample.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FormSample.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebSite1/WebSite1.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebSite1/section/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebSite1/section/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebSite1/section/News.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/WebSite1/section/Performar.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -58,6 +62,8 @@
       <recent name="C:\projects\X\react-sample\src\component" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\X\react-sample\src\pages\WebSite1\section" />
+      <recent name="C:\projects\X\react-sample\src\pages\WebSite1" />
       <recent name="C:\projects\X\react-sample\src\context" />
     </key>
   </component>
@@ -86,8 +92,17 @@
       <updated>1673439779696</updated>
       <workItem from="1673439781574" duration="157000" />
       <workItem from="1673439942399" duration="11089000" />
-      <workItem from="1673528301183" duration="4755000" />
+      <workItem from="1673528301183" duration="9953000" />
+      <workItem from="1673621973126" duration="3961000" />
     </task>
+    <task id="LOCAL-00001" summary="add samples">
+      <created>1673536715330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673536715330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="add samples" />
   </component>
 </project>
